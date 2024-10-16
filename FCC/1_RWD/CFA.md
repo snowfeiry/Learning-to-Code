@@ -33,4 +33,6 @@
     `<a href="URL.com" target="_blank"`
     - Attribute="Value"
   - Images can also be turned into links by wrapping them in anchor tags.
-- **section element:** Defines sections that separate content in a document.
+- **section element:** Defines sections in a document.
+  - Separate content like chapters, headers, and footers.
+  - Semantic element that helps with SEO and accessibility.
