@@ -1,1 +1,101 @@
+body {
+  background-color: #e6edff;
+}
 
+h1 {
+  display: inline;
+  color: #5843a7;
+  font-family: "Libre Baskerville";
+  font-size: 36px;
+}
+
+h2 {
+  display: block;
+  color: #f08ecc;
+  font-family: serif;
+  font-family: "Libre Baskerville";
+}
+
+p {
+  color: #7a4373;
+  font-family: Arial;
+}
+
+a {
+  color: #d975a7;
+}
+
+.header {
+  margin: auto;
+  padding-bottom: 15px;
+  width: 90%;
+}
+
+#logo {
+  display: inline;
+}
+
+.galleryCon {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 1px #ffffff, 1px 1px 2px 1px #ccdbff;
+  margin: auto;
+  padding: 0px;
+  width: 90%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffdefa;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 15px;
+  border-left: 2px solid #fccff6;
+  color: #d975a7;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffccf7;
+}
+
+#navActive {
+  background-color: #d975a7;
+  color: #ffffff;
+}
+
+.gallerySubCon {
+  margin: 0px;
+  padding: 15px;
+  height: 300px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  background-color: #ffffff;
+}
+
+.gallerySubCon::-webkit-scrollbar {
+  display: none;
+}
+
+.galleryItem {
+  margin: 5px;
+  float: left;
+  width: 200px;
+}
+
+.galleryImage {
+  width: 100%;
+  height: auto;
+}
