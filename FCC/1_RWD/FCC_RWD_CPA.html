@@ -8,19 +8,69 @@
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
-      <h1>Portfolio</h1>
-      <p>Personal digital art and design projects <a href="/about_me">I've</a> worked on.</p>
-      <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Placeholder image"></a>
-      <!-- For reference, this is a comment -->
+      <!-- #dee8ff #f0f4ff #e6edff #ecf4ff -->
+      <!-- Portfolio header and intro -->
       <section>
-        <h2>Static Media</h2>
+      <div class="header">
+        <a href="#"><img src="/Media/temp_logo.png" alt="Placeholder logo from pngtree" height="50px" id="logo"></a>
+        <h1>Portfolio</h1>
+        <p>Personal digital art and design projects <a href="/about_me">I've</a> worked on.</p>
+      </div>
       </section>
-      <section>
-        <h2>Interactive Media</h2>
-      </section>
+      <!-- Navigation bar -->
+      <div class="galleryCon">
+        <div id="portNav">
+          <ul>
+            <li><a href="/portfolio_dynamic">Dynamic</a></li>
+            <li><a href="/portfolio_static" id="navActive">Static</a></li>
+          </ul>
+        </div>
+        <div class="gallerySubCon">
+          <h2>Photoshop</h2>
+          <p>Placeholder text</p>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/0_1_Intro_Pages.jpg" alt="Digital Imaging Intro Page 1" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/0_2_Intro_Pages.jpg" alt="Digital Imaging Intro Page 2" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/1_1_Welcome_Screen.jpg" alt="Digital Imaging Welcom Screen 1" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/1_2_Welcome_Screen.jpg" alt="Digital Imaging Welcom Screen 2" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/2_Book_Excerpt.jpg" alt="Digital Imaging Book Excerpt" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/3_World_Day.jpg" alt="Digital Imaging World Day" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/4_World_Night.jpg" alt="Digital Imaging World Night" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/5_Table_Setting.jpg" alt="Digital Imaging Table Setting" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/6_Table_Setting_Zoom.jpg" alt="Digital Imaging Table Setting Zoom" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="/Media/Digital_Imaging/7_Table_Setting_Select.jpg" alt="Digital Imaging Table Setting Select" class="galleryImage">
+          </div>
+          <br>
+          <h2>Photography</h2>
+          <h2>Drawings</h2>
+          <h2>Graphic Design</h2>
+        </div>
+      </div>
     </main>
   </body>
 </html>
